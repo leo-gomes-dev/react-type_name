@@ -1,0 +1,76 @@
+/* Centraliza o container na tela aproveitando as variáveis do index.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 20px;
+  gap: 24px;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Estilização do formulário */
+.form-box {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Input usando as bordas e cores de fundo do reset */
+.input-field {
+  flex: 1;
+  background-color: var(--bg-surface);
+  border: 2px solid var(--border);
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: border-color 0.2s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+/* Botão estilizado com a cor principal */
+.btn-submit {
+  background-color: var(--primary);
+  color: var(--bg-main);
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: var(--primary-dark);
+}
+
+/* Texto de exibição do resultado */
+.result-text {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  background-color: var(--bg-surface);
+  padding: 12px 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
