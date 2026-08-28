@@ -14,7 +14,8 @@ function App() {
 
   return (
     <div className="container">
-      {nomeDigitado && <h1>{nomeDigitado}</h1>}
+      <h1>Digite o Nome</h1>
+
       <form onSubmit={handleNome} className="form-box">
         <input
           type="text"
@@ -32,6 +33,8 @@ function App() {
           Digitando: <strong>{name}</strong>
         </span>
       )}
+
+      {nomeDigitado && <h3>Último nome digitado: {nomeDigitado}</h3>}
     </div>
   );
 }
