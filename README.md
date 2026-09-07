@@ -1,14 +1,14 @@
-# 📝 Name Displayer App
+# Name Displayer App
 
 Uma aplicação web minimalista desenvolvida em React que captura o texto digitado pelo usuário em tempo real e o renderiza em destaque na tela após o envio do formulário.
 
 ---
 
-## 🚀 Sobre o Projeto (About)
+## Sobre o Projeto (About)
 
 O **Name Displayer App** é um projeto de página única (SPA) focado na demonstração prática de conceitos essenciais do ecossistema React e CSS moderno. A aplicação monitora o estado de um campo de entrada, exibe um feedback visual instantâneo do que está sendo digitado e atualiza o cabeçalho principal de forma reativa assim que o formulário é submetido.
 
-### 🎯 Funcionalidades Principais
+### Funcionalidades Principais
 
 - **Feedback em tempo real**: Exibe o texto "Digitando: [...]" dinamicamente antes do envio.
 - **Validação simples**: Impede o envio de campos vazios ou preenchidos apenas com espaços.
@@ -17,7 +17,7 @@ O **Name Displayer App** é um projeto de página única (SPA) focado na demonst
 
 ---
 
-## 🎨 Design e Estilização
+## Design e Estilização
 
 A aplicação utiliza um tema escuro (_Dark Mode_) com a seguinte arquitetura de estilos:
 
@@ -27,7 +27,7 @@ A aplicação utiliza um tema escuro (_Dark Mode_) com a seguinte arquitetura de
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **React** (Biblioteca Javascript para construção de interfaces)
 - **JavaScript (ES6+)**
@@ -35,7 +35,7 @@ A aplicação utiliza um tema escuro (_Dark Mode_) com a seguinte arquitetura de
 
 ---
 
-## 📦 Estrutura de Arquivos Base
+## Estrutura de Arquivos Base
 
 ```bash
 src/
@@ -46,7 +46,7 @@ src/
 
 ---
 
-## 🔧 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. **Clone o repositório:**
 
